@@ -1,1 +1,6 @@
 site_name: My Docs
+nav:
+     - Home: index.md
+     - Docker: install_docker.md
+     - Traefik: traefik.md
+theme: readthedocs
