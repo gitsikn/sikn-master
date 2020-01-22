@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Wiki SIKN dan JIKN
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+Wiki SIKN dan JIKN merupakan sarana yang digunakan untuk menyimpan pengetahuan dan informasi terkait dengan pengembangan SIKN dan JIKN pada Arsip Nasional Republik Indonesia.
 
-## Commands
+Tujuan adalah Wiki SIKN dan JIKN ini adalah terdokumentasikannya seluruh arsitektur, rancangan, dan konfigurasi sistem SIKN dan JIKN
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Manfaat yang dapat diberikan adalah sebagai berikut:
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. Pusat SIKN dan JIKN memiliki sistem standar untuk mendokumentasikan sistem aplikasi
+2. SDM IT pada pusat SIKN dan JIKN dapat menulis, saling berbagi pengetahuan dan berkolaborasi dalam pengembangan sistem
+3. Anggota simpul jaringan dapat mengakses dan mempelajari cara dan informasi teknis terkait dengan kebutuhan dan konfigurasi sistem aplikasi SIKN dan JIKN  
+4. Menjaga kontinuitas sistem SIKN dan JIKN sehingg tetap terpelihara dan beroperasi dengan stabil

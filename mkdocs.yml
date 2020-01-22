@@ -3,4 +3,8 @@ nav:
      - Home: index.md
      - Docker: install_docker.md
      - Traefik: traefik.md
+     - Portainer: portainer.md
+     - Extend Disk Size: extend_disk.md
+     - Redhat subscription: redhat_subscription.md
+     - Dashboard: dashboard.md
 theme: readthedocs
