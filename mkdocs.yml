@@ -7,4 +7,7 @@ nav:
      - Extend Disk Size: extend_disk.md
      - Redhat subscription: redhat_subscription.md
      - Dashboard: dashboard.md
+     - RHV: rhv.md
+     - Database: database.md
+     - Best Practice Migrasi Perpusnas ANRI: bestpractise.md
 theme: readthedocs
