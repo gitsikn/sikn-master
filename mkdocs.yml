@@ -4,10 +4,29 @@ nav:
      - Docker: install_docker.md
      - Traefik: traefik.md
      - Portainer: portainer.md
+     - Grafana: install_grafana.md
+     - AtoM: install_atom.md
+     - Migrasi Data: migrasi.md
+     - Best Practice Migrasi Perpusnas ANRI: bestpractise.md
+     - Custom AtoM: custom_atom.md
      - Extend Disk Size: extend_disk.md
+     - Generate SSH key on Putty: generate_ssh.md
+     - Grafana: grafana.md
      - Redhat subscription: redhat_subscription.md
      - Dashboard: dashboard.md
      - RHV: rhv.md
      - Database: database.md
-     - Best Practice Migrasi Perpusnas ANRI: bestpractise.md
+     - Harvest data simpul ke JIKN: harvest_data_simpul.md
+     - Mkdocs: install_mkdocs.md
+     - OpenEDX in docker: install_openedx.md
+     - Keycloak: keycloak.md
+     - Membuat docker image: membuat_docker_image.md
+     - Mounting new disk in server: mounting_new_disk.md
+     - NFS in Docker Swarm: nfs_in_dockerswarm.md
+     - Permasalahan yang sering terjadi: permasalahandns.md
+     - Query Data Kearsipan: query_data_kearsipan.md
+     - Setup HA app with Docker Swarm and Gulster: setup_ha.md
+     - Share data among machines [docker]: share_data.md
+     - Traefik and Own SSL certs: traefik_ownssl_certs.md
+
 theme: readthedocs
