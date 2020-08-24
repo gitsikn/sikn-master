@@ -10,7 +10,6 @@ nav:
      - Best Practice Migrasi Perpusnas ANRI: bestpractise.md
      - Extend Disk Size: extend_disk.md
      - Generate SSH key on Putty: generate_ssh.md
-     - Grafana: grafana.md
      - Redhat subscription: redhat_subscription.md
      - Dashboard: dashboard.md
      - RHV: rhv.md
