@@ -1,5 +1,5 @@
 
-### menampilkan objek digital berdasarkan jenis
+### Menampilkan objek digital berdasarkan jenis
 ```
 SELECT
 now() as time_sec,

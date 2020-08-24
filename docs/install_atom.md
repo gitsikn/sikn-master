@@ -2,7 +2,7 @@
 **Catatan: Instalasi pada simpul resource tidak dibatasi**
 versi 2.5
 
-sesuaikan **nama_simpul**, konfigurasi pada file **sikn.yml** di docker-yml/sikn.yml
+Sesuaikan **nama_simpul**, konfigurasi pada file **sikn.yml** di docker-yml/sikn.yml
 find and replace nama_simpul dengan nama simpul baru (alt + r) pada nano editor  
 pastikan port pada service nginx belum digunakan sebelumnya
 ```
@@ -102,4 +102,14 @@ docker ps -aq
 tambahkan dns lokal pada file C:\Windows\System32\drivers\etc\host
 
 sikn.nama_simpul.go.id
+
+### 12. Custom AtoM
+custom AtoM
+
+Mengubaha default languange
+
+pada file data/fixtures/settings.yml
+
+bagian QubitSetting_26:
+scope: i18n_languages
  

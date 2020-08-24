@@ -1,24 +1,24 @@
 ## Melihat Spesifikasi server
 
-melihat cpu
+Melihat cpu
 ```
 lscpu
 ```
 
-informasi memory
+Informasi memory
 
 ```
 free -m
 ```
-informasi disk
+Informasi disk
 ```
 df -h
 ```
-informasi OS
+Informasi OS
 ```
 lsb_release -a
 ```
-### set domain name
+### Set Domain Name
 ```
 export USE_HOSTNAME=nama_domain.go.id \
 && echo $USE_HOSTNAME > /etc/hostname \
@@ -35,19 +35,19 @@ CentOS
 yum update -y \
 yum upgrade
 ```
-### 1. download dan install docker  
+### 1. Download dan Install Docker  
 ```
 mkdir -p /opt/docker \
 && cd /opt/docker \
 && curl -fsSL get.docker.com -o get-docker.sh \
 && CHANNEL=stable sh get-docker.sh
 ```
-### Configure Docker to start on boot
+**Configure Docker to start on boot**
 ```
 sudo systemctl enable docker && sudo systemctl start docker
 ```
 
-### 2. install docker-compose (Skip jika mengggunakan docker swarm)
+### 2. Install Docker-Compose (Skip jika mengggunakan docker swarm)
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -55,17 +55,17 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
-### test docker installation
+**Test Docker Installation**
 ```
 docker --version \
 && docker run hello-world
 ```
 
-### 3. test instalasi docker-compose
+### 3. Test Instalasi Docker-Compose
 ```
 docker-compose --version
 ```
-### Set Docker Experimental
+**Set Docker Experimental**
 
 ```
 echo $'{\n    "experimental": true\n}' | sudo tee /etc/docker/daemon.json;
@@ -103,7 +103,7 @@ echo -e "[Service]\nLimitMEMLOCK=infinity" | SYSTEMD_EDITOR=tee systemctl edit d
 ```
 reboot
 ```
-### Open Port on Ubuntu
+**Open Port on Ubuntu**
 ```
 ufw allow 22/tcp
 ufw allow 2376/tcp
@@ -113,7 +113,7 @@ ufw allow 7946/udp
 ufw allow 4789/udp
 ufw reload
 ```
-### Open Port on CentOS
+**Open Port on CentOS**
 ```
 firewall-cmd --add-port=22/tcp --permanent
 firewall-cmd --add-port=2376/tcp --permanent
@@ -124,7 +124,7 @@ firewall-cmd --add-port=4789/udp --permanent
 firewall-cmd --reload
 ```
 
-### Set up swarm mode
+**Set up swarm mode**
 ```
 docker swarm init
 ```

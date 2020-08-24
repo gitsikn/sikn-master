@@ -1,4 +1,4 @@
-### membuat domain 
+### Membuat domain 
 
 add domain below to local DNS or public DNS  
 
@@ -28,11 +28,11 @@ cd /opt/ \
 && git clone https://github.com/gitsikn/swarmprom.git \
 && cd swarmprom
 ```
-**multiple node** 
+**Multiple node** 
 ```
 docker stack deploy -c docker-compose.traefik.yml swarmprom
 ```
-**single node** 
+**Single node** 
 ```
 docker-compose -f docker-compose.traefik.yml up -d
 ```
