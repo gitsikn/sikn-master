@@ -5,7 +5,7 @@ Berikut ini link data PIC Helpdesk Nasional secara realtime:
 
 [Data PIC Helpdesk Nasional](https://docs.google.com/spreadsheets/d/1dixGJr_YrYeb3bO7yQL6CyJK85QywNX73P79WSCJTrg/edit?usp=sharing)
 
-[Form PIC Helpdesk Nasional](https://forms.gle/3sGcQLtCbJ5w4wS6)
+[Form PIC Helpdesk Nasional](https://s.id/formpichelpdesksikn)
 
 Data ini dibuat oleh: 
 
